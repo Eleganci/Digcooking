@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digcooking</title>
+    <link rel="icon" href="img/icon3.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-fixed bg-cover bg-no-repeat text-white" style="background-image: url('img/background2.jpg');">
+    <div class="bg-fixed bg-black bg-opacity-60">
+        <section class="sticky top-0 z-30 bg-black bg-opacity-80 px-10 py-5 flex justify-between font-extrabold">
+            <h1 class="text-3xl">DigCooking</h1>
+            <ul class="text-lg flex gap-x-10 mt-1">
+                <li>
+                    <button onclick="scrollToTargetAdjusted('post-1', 220)">Makanan Berat</button>
+                </li>
+                <li>
+                    <button onclick="scrollToTargetAdjusted('post-2', 220)">Makanan Ringan</button>
+                </li>
+                <li>
+                    <button onclick="scrollToTargetAdjusted('post-3', 220)">Minuman</button>
+                </li>
+            </ul>
+        </section>
+        <section class="grid grid-cols-8 gap-x-10 m-20 mb-40">
+            <div class="col-start-2 col-span-2 grid gap-y-3 justify-items-center bg-black bg-opacity-60 hover:bg-opacity-80 rounded-3xl overflow-hidden">
+                <img class="bg-cover w-full h-72" src="img/nasi goreng.jpg" alt="">
+                <h1 class="font-extrabold text-4xl">Nasi goreng</h1>
+                <p class="text-lg px-5">
+                    Fried rice is a food in the form of fried rice and stirred in cooking oil, margarine, or butter. Usually added sweet soy sauce, shallots, garlic, tamarind, pepper and other spices; such as eggs, chicken, and crackers.
+                </p>
+                <button class="bg-sky-500 hover:bg-sky-700 font-bold rounded-3xl p-3 mb-5" onclick="scrollToTargetAdjusted('post-1', 220)">
+                    Read More!
+                </button>
+            </div>
+            <div class="col-span-2 grid gap-y-3 justify-items-center bg-black bg-opacity-60 hover:bg-opacity-80 rounded-3xl overflow-hidden">
+                <img class="bg-cover w-full h-72" src="img/brownies2.jpg" alt="">
+                <h1 class="font-extrabold text-4xl">Brownies chocolate</h1>
+                <p class="text-lg px-5">
+                    These chocolate brownies are very tasty and easy to make yourself at home, here's a recipe and how to make delicious and nutritious chocolate brownies
+                </p>
+                <button class="bg-sky-500 hover:bg-sky-700 font-bold rounded-3xl p-3 mb-5" onclick="scrollToTargetAdjusted('post-2', 220)">
+                    Read More!
+                </button>
+            </div>
+            <div class="col-span-2 grid gap-y-3 justify-items-center bg-black bg-opacity-60 hover:bg-opacity-80 rounded-3xl overflow-hidden">
+                <img class="bg-cover w-full h-72" src="img/milkshake.jpg" alt="">
+                <h1 class="font-extrabold text-4xl">Milkshake chocolate</h1>
+                <p class="text-lg px-5">
+                    A milkshake is a cold drink made from a mixture of milk, ice cream, and flavored syrup, which is whipped until it becomes frothy. In addition to being whipped with a blender, milk shakes can be made using a shaker with a lid. In the United Kingdom, milkshakes are only made from milk mixed with fruit or chocolate.
+                </p>
+                <button class="bg-sky-500 hover:bg-sky-700 font-bold rounded-3xl p-3 mb-5" onclick="scrollToTargetAdjusted('post-3', 220)">
+                    Read More!
+                </button>
+            </div>
+        </section>
+        <section class="mx-40 pb-20">
+            <div class="grid grid-cols-2 gap-y-5 justify-between text-xl mb-20">
+                <div class="col-span-1">
+                    <img class="sticky top-44 z-20 object-cover w-[680px] h-[680px] rounded-3xl" src="img/nasi goreng.jpg" alt="">
+                </div>
+                <div class="col-span-1 bg-black bg-opacity-60 rounded-3xl p-10">
+                    <h1 id="post-1" class="text-4xl font-bold mb-5" style="font-family: 'DynaPuff', cursive;">Nasi goreng</h1>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">Bahan-bahan :</h1>
+                    <p>
+                        telur 110 gr<br>
+                        garam 2 gr  <br>
+                        Blue Band Serbaguna 7 gr<br>
+                        bawang bombay 50 gr <br>
+                        wortel 30 gr <br>
+                        bawang putih 5 gr <br>
+                        daging ayam paha atau dada matang 50 gr <br>
+                        nasi putih 100 gr<br><br>
+
+                    </p>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">Langkah-langkah :</h1>
+                    <p>
+                        1. Kocok telur, ¼ sdt garam, dan susu hingga merata, sisihkan. <br>
+                        2. Panaskan wajan, masukkan ½ sdt Blue Band Serbaguna lalu tumis bawang Bombai, wortel, bawang putih hingga wortelnya matang<br>
+                        3. Masukkan daging ayam yg sudah matang, lalu masukkan nasi aduk hingga rata <br>
+                        4. Tambahkan saus tomat dan garam secukupnya <br>
+                        5. Masak hingga tercampur rata, lalu bentuk nasi goreng dengan mangkuk kecil lalu sajikan di piring<br>
+                        6. Di wajan terpisah, masukkan Blue Band Serbaguna, lelehkan<br>
+                        7. Tuangkan telur yang sudah dikocok, lalu aduk-aduk perlahan seperti orak arik tetapi tidak hancur<br>
+                        8. Masak hingga ¾ matang lalu pindahkan telur ke atas nasi goreng yang sudah dibentuk<br>
+                        9. Sajikan dan siap di santap<br>
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-y-5 justify-between text-xl mb-20">
+                <div class="col-span-1">
+                    <img class="sticky top-44 z-20 object-cover w-[680px] h-[680px] rounded-3xl" src="img/brownies2.jpg" alt="">
+                </div>
+                <div class="col-span-1 bg-black bg-opacity-60 rounded-3xl p-10">
+                    <h1 id="post-2" class="text-4xl font-bold mb-5" style="font-family: 'DynaPuff', cursive;">Brownies chocolate</h1>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">materials :</h1>
+                    <p>
+                        5 tablespoons of Wheat Flour<br>
+                        5 tablespoons of granulated sugar  <br>
+                        5 tablespoons Vegetable Oil <br>
+                        2 sachet Chocolatos <br>
+                        2 sachet Chocolate (Dissolve with 5 tablespoons of warm water) <br>
+                        2 chicken eggs<br>
+                        1/4 teaspoon Baking Soda<br>
+                        1/4 teaspoon Vanilla<br>
+                        Enough Chocochips for topping<br><br>
+
+                    </p>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">Langkah-langkah :</h1>
+                    <p>
+                        1. Kocok telur dan gula pasir sampai rata, masukkan Tepung terigu, aduk hingga rata. <br>
+                        2. Masukkan chocolatos dan susu kental manis, aduk lagi hingga rata, masukkan baking powder. <br>
+                        3. Kemudian masukkan minyak, aduk rata, terakhir masukkan air. <br>
+                        4. Tuang dalam loyang, kukus dengan api sedang selama 25 menit/sampai matang.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-y-5 justify-between text-xl mb-20">
+                <div class="col-span-1">
+                    <img class="sticky top-44 z-20 object-cover w-[680px] h-[680px] rounded-3xl" src="img/milkshake.jpg" alt="">
+                </div>
+                <div class="col-span-1 bg-black bg-opacity-60 rounded-3xl p-10">
+                    <h1 id="post-3" class="text-4xl font-bold mb-5" style="font-family: 'DynaPuff', cursive;">chocolate milkshake</h1>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">materials :</h1>
+                    <p>
+                        1 susu chocolate cair<br>
+                        1 bungkus marie regal  <br>
+                        1 batang chocolate hitam <br>
+                        1 batang chocolate putih <br>
+                        gula pasir <br>
+                        ice cream <br>
+                        anggur <br>
+                        es batu <br><br>
+
+                    </p>
+                    <br>
+                    <h1 class="text-3xl font-extrabold mb-5" style="font-family: 'DynaPuff', cursive;">Langkah-langkah :</h1>
+                    <p>
+                        1. Siapkan bahan-bahan lalu potong marie regal. Masukkan ke dalam blender. <br>
+                        2. Tuang susu cair kemudian tambahkan SKM putih secukupnya <br>
+                        3. Masukkan es batu secukupnya lalu tambahkan gula putih. <br>
+                        4. Blender bahan-bahan yang telah dimasukkan sampai halus.. <br>
+                        5. Siapkan gelas, kemudian tuang SKM coklat memutari gelas sebagai tampilan.<br>
+                        6. Kemudian tuang es regal ke dalam gelas yang telah disiapkan.<br>
+                        7. Tambahkan satu sendok ice cream (bisa ditambah buah).<br>
+                        8. milkshake siap dinikmati.<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function scrollToTargetAdjusted(id, headerOffset){
+            var element = document.getElementById(id);
+            var elementPosition = element.getBoundingClientRect().top;
+            var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+</html>
